@@ -1,0 +1,87 @@
+
+body{
+    background-color: rgb(245, 239, 229);
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.logo1{
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #faffe2;
+    border-radius: 2%;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0.4);
+    margin-left: 25em;
+    margin-bottom: 3em;
+    position: sticky;
+    top: 10px;
+
+} 
+.navbar{
+    height: 110px;
+}
+.offcanvas{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#offcanvasNavbarLabel{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.zapas{
+    width: 200px;
+    height: 250px;
+    border: 5px solid black;
+    box-shadow: 3px 6px 12px black;
+}
+h3{
+    color: gold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkred;
+    height: 40px;
+    box-shadow: 3px 3px 3px yellow ;
+}
+#hombres{
+    margin: 3em 1em 3em 1em;
+}
+#mujer{
+    margin:3em 1em 3em 1em;
+    padding: 1em;
+}
+span{
+    font-weight: bold;
+}
+#niño{
+    margin: 2em 1em 2em 1em;
+}
+.zapas:hover{
+    transform: scale(1.15);
+}
+footer{
+    background-color: darkred;
+    border: black 5px solid;
+    color: gold;
+}
+#flecha{
+    border: 4px goldenrod solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    padding: 1em;
+}
+#flecha:hover{
+    background-color: white;
+    cursor: pointer;
+
+}
+#carrousel,img{
+    max-height: 800px;
+    max-width: 100%;
+}
